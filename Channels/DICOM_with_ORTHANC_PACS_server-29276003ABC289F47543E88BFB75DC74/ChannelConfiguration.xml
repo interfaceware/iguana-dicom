@@ -1,0 +1,16 @@
+<channel
+   name="DICOM with ORTHANC PACS server"
+   guid="29276003ABC289F47543E88BFB75DC74"
+   description="&#x9;This is quick example for integration of Iguana with Orthanc PACS. This PACS is WADO enabled and has RESTful API. &#xD;&#xA;For complete documentation please read README.lua in Source Component Project.&#xD;&#xA;-- 1. Import this channel to local Iguana instance&#xD;&#xA;-- 2. Launch this channel&#xD;&#xA;-- 3. Open Internet Browser window to ORTHANC1 at http://localhost:8043&#xD;&#xA;-- Monitor ORTHANC1 Dashboard to show it received Sample data&#xD;&#xA;-- 4. Once ORTHANC1 Dashboard shows it received Sample data, stop this channel&#xD;&#xA;-- 5. Open Internet Browser window to ORTHANC2 at http://localhost:8044&#xD;&#xA;-- Note that ORTHANC2 Dashboard shows it has no Patients data&#xD;&#xA;-- 6. Open this project in Translator IDE and display main.lua&#xD;&#xA;-- 7. Execute this project in Translator IDE and monitor Annotations for how things get calculated &#xD;&#xA;-- 8. Refresh and Inspect ORTHANC2 Browser window&#xD;&#xA;-- Note how Iguana made ORTHANC1 to perform CSTORE to ORTHANC2"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="WADO_to_Orthanc_PACS_DICOM-From-6Q4YbbH5r9KhuH"
+      commit_id="bc06a7fb262ad3938677b5f0b8f77e714c1974d7"
+      commit_comment="Import Translators: DICOM"
+      poll_time="10000">
+   </from_mapper>
+</channel>

@@ -1,0 +1,19 @@
+{
+    "LocalDependencies": [
+        "README.lua",
+        "WADOhelpers.lua",
+        "dicomedit.lua",
+        "environmentBuilder.lua",
+        "urlcode.lua"
+    ],
+    "LuaDependencies": [
+        "dicom"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1481043366",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
