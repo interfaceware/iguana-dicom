@@ -1,0 +1,42 @@
+{
+    "LocalDependencies": [
+        "icm-utils.lua",
+        "icm-webserver.lua",
+        "wado-api.lua",
+        "wado-build-env.lua",
+        "wado-cstore-samples.lua",
+        "wado-fetch-files.lua",
+        "wado-installation-status.lua",
+        "wado-launch-editor.lua",
+        "wado-reset-example.lua",
+        "wado-utils.lua",
+        "web/file.lua",
+        "www/css/main.css",
+        "www/img/Logo-IguanaTools@2x.png",
+        "www/img/workflow_schema.png",
+        "www/index.html",
+        "www/js/interfaceware-mustache.js",
+        "www/js/interfaceware-utils.js",
+        "www/js/mustache.js"
+    ],
+    "LuaDependencies": [
+        "cron.edit",
+        "iguana.action",
+        "iguana.info",
+        "iguana.user",
+        "net.http.cache",
+        "net.http.getCached",
+        "os.fs.deleteDir",
+        "store2",
+        "web.basicauth",
+        "web.file",
+        "windows.scheduler"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1481129296",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
